@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(23,128,98);
+    background: linear-gradient(90deg, rgba(23,128,98,1) 0%, rgba(37,147,104,1) 50%, rgba(32,130,75,1) 100%);
+
+    font-family: 'Gaegu' , sans-serif;
+    color: white;
+
+}
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-page h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+
+.game-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+
+}
+
+
+.box{
+    display: flex;
+    font-weight: bold;
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: solid 2px black;
+    color: #000000;
+}
+
+.box:hover{
+    background-color: #2EBC85;
+    cursor: pointer;
+}
+
+.turn{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.left{
+    border-left: 0px;
+}
+
+.right{
+    border-right: 0px;
+}
+
+.top{
+    border-top: 0px;
+}
+
+.bottom{
+    border-bottom: 0px;
+}
+
+.win-color{
+    color:white;
+}
